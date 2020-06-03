@@ -115,7 +115,7 @@
   },
   "husky": {
     "hooks": {
-      "precommit": "npm run build-package"
+      "pre-commit": "npm run build-package"
     }
   }
 }
