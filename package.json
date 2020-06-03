@@ -112,5 +112,10 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/codypearce/material-bread/issues"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build-package"
+    }
   }
 }
