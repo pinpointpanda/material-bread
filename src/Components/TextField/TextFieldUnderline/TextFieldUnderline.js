@@ -19,7 +19,7 @@ class TextFieldUnderline extends Component {
 
   state = {
     underLineXAnimation: new Animated.Value(0),
-    animationDuration: 200,
+    animationDuration: 1000, //200
     animationEasing: Easing.bounce,
   };
 
